@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { JSBI, Pair, Percent } from '@gemuni/sdk'
+import { JSBI, Pair, Percent } from '@techchainswapfinance/sdk'
 import {
   Button,
   Text,

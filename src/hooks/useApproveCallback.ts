@@ -1,6 +1,6 @@
 import { MaxUint256 } from '@ethersproject/constants'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Trade, TokenAmount, CurrencyAmount, ETHER, ROUTER_ADDRESS_MAP } from '@gemuni/sdk'
+import { Trade, TokenAmount, CurrencyAmount, ETHER, ROUTER_ADDRESS_MAP } from '@techchainswapfinance/sdk'
 // import { CHAIN_ID } from 'config/constants/networks'
 import { useCallback, useMemo } from 'react'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

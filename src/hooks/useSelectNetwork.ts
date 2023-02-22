@@ -3,7 +3,7 @@ import { useWeb3React } from '@web3-react/core'
 import { useDispatch } from 'react-redux'
 import { fetchChainIdFromUrl, fetchUserNetwork } from 'state/network'
 import { CHAIN_PARAMS } from 'config/constants/chains'
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 
 const useSwitchNetwork = () => {
   const { chainId, account, library } = useWeb3React()

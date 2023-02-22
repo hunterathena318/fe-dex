@@ -1,4 +1,4 @@
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 import addresses from 'config/constants/contracts'
 import { Address } from 'config/constants/types'
 import { VaultKey } from 'state/types'

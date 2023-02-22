@@ -1,4 +1,4 @@
-import { Currency, Pair, Token } from '@gemuni/sdk'
+import { Currency, Pair, Token } from '@techchainswapfinance/sdk'
 import { Box, Button, ChevronDownIcon, Flex, Text, useModal } from '@pancakeswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

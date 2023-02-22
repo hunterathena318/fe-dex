@@ -1,5 +1,5 @@
 import { Fragment, memo } from 'react'
-import { ChainId, Trade } from '@gemuni/sdk'
+import { ChainId, Trade } from '@techchainswapfinance/sdk'
 import { Text, Flex, ChevronRightIcon } from '@pancakeswap/uikit'
 import { unwrappedToken } from 'utils/wrappedCurrency'
 

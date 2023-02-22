@@ -5,7 +5,16 @@ import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
 import { useRouter } from 'next/router'
 import useToast from 'hooks/useToast'
-import { Currency, currencyEquals, ETHER, Percent, WETH, ROUTER_ADDRESS_MAP, ChainId, DOMAIN_LP_MAP } from '@gemuni/sdk'
+import {
+  Currency,
+  currencyEquals,
+  ETHER,
+  Percent,
+  WETH,
+  ROUTER_ADDRESS_MAP,
+  ChainId,
+  DOMAIN_LP_MAP,
+} from '@techchainswapfinance/sdk'
 import { Button, Text, AddIcon, ArrowDownIcon, CardBody, Slider, Box, Flex, useModal } from '@pancakeswap/uikit'
 import { BigNumber } from '@ethersproject/bignumber'
 import { useTranslation } from 'contexts/Localization'

@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react'
-import { Currency, Token } from '@gemuni/sdk'
+import { Currency, Token } from '@techchainswapfinance/sdk'
 import {
   ModalContainer,
   ModalHeader,

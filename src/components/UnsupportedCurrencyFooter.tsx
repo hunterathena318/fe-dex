@@ -1,4 +1,4 @@
-import { Currency, Token } from '@gemuni/sdk'
+import { Currency, Token } from '@techchainswapfinance/sdk'
 import { Button, Text, Modal, useModal, InjectedModalProps, Link } from '@pancakeswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import styled from 'styled-components'

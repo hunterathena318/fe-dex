@@ -1,4 +1,4 @@
-import { Percent, Price } from '@gemuni/sdk'
+import { Percent, Price } from '@techchainswapfinance/sdk'
 
 const getRatePercentageDifference = (currentMarketRate: Price, price: Price) => {
   if (currentMarketRate && price) {

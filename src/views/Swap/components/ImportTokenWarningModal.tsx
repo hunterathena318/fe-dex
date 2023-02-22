@@ -1,4 +1,4 @@
-import { Token } from '@gemuni/sdk'
+import { Token } from '@techchainswapfinance/sdk'
 import { Modal, InjectedModalProps } from '@pancakeswap/uikit'
 import ImportToken from 'components/SearchModal/ImportToken'
 import { useTranslation } from 'contexts/Localization'

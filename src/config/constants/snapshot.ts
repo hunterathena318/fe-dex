@@ -1,4 +1,4 @@
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 import tokens from 'config/constants/tokens'
 import { getCakeVaultAddress, getIfoPoolAddress, getMasterChefAddress } from 'utils/addressHelpers'
 

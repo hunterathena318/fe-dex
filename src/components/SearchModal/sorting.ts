@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@gemuni/sdk'
+import { Token, TokenAmount } from '@techchainswapfinance/sdk'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 

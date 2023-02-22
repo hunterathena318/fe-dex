@@ -1,5 +1,5 @@
 import { createAction } from '@reduxjs/toolkit'
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 import { Order } from '@gelatonetwork/limit-orders-lib'
 
 // TODO: Add normal swaps and liquditiy transactions

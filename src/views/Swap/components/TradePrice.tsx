@@ -1,4 +1,4 @@
-import { Price } from '@gemuni/sdk'
+import { Price } from '@techchainswapfinance/sdk'
 import { IconButton, Text } from '@pancakeswap/uikit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 

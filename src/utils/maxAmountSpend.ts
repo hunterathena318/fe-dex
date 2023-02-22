@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from '@gemuni/sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@techchainswapfinance/sdk'
 import { MIN_BNB } from '../config/constants'
 
 /**

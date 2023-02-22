@@ -6,7 +6,7 @@ import { TransactionResponse } from '@ethersproject/abstract-provider'
 
 import { useOrderActionHandlers } from 'state/limitOrders/hooks'
 import { Field, Rate } from 'state/limitOrders/types'
-import { Currency, Price } from '@gemuni/sdk'
+import { Currency, Price } from '@techchainswapfinance/sdk'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useTransactionAdder } from 'state/transactions/hooks'
 import useGelatoLimitOrdersLib from './useGelatoLimitOrdersLib'

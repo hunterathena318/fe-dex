@@ -1,4 +1,4 @@
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 import getLpAddress from 'utils/getLpAddress'
 import { CHAIN_ID } from './networks'
 import tokens from './tokens'

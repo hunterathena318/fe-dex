@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react'
-import { Currency, CurrencyAmount, Pair, Percent, Token, TokenAmount } from '@gemuni/sdk'
+import { Currency, CurrencyAmount, Pair, Percent, Token, TokenAmount } from '@techchainswapfinance/sdk'
 import { AddIcon, Button, InjectedModalProps, Text } from '@pancakeswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import TransactionConfirmationModal, {

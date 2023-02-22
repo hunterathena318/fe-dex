@@ -1,4 +1,4 @@
-import { WETH } from '@gemuni/sdk'
+import { WETH } from '@techchainswapfinance/sdk'
 import { BNB_ADDRESS } from './constants'
 
 const MIN_VALUE_DISPLAYED = 0.001

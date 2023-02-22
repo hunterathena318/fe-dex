@@ -6,7 +6,7 @@ import { multicallv2 } from 'utils/multicall'
 import { TeamsById } from 'state/types'
 import profileABI from 'config/abi/pancakeProfile.json'
 import { getPancakeProfileAddress } from 'utils/addressHelpers'
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 
 const profileContract = getProfileContract(ChainId.BSC)
 

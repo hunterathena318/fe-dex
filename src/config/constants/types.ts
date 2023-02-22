@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { Token } from '@gemuni/sdk'
+import { Token } from '@techchainswapfinance/sdk'
 
 export type TranslatableText =
   | string

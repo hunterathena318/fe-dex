@@ -1,6 +1,6 @@
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { SWRConfig } from 'swr'
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 import Teams from '../../views/Teams'
 import { getTeams } from '../../state/teams/helpers'
 import { teamsById } from '../../utils/teamsById'

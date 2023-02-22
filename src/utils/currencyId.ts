@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@gemuni/sdk'
+import { Currency, ETHER, Token } from '@techchainswapfinance/sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'BNB'

@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@gemuni/sdk'
+import { Currency, Percent, Price } from '@techchainswapfinance/sdk'
 import { Text } from '@pancakeswap/uikit'
 import { useTranslation } from 'contexts/Localization'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

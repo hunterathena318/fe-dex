@@ -1,4 +1,4 @@
-import { CurrencyAmount, Fraction, JSBI, Percent, Price, TokenAmount, Trade } from '@gemuni/sdk'
+import { CurrencyAmount, Fraction, JSBI, Percent, Price, TokenAmount, Trade } from '@techchainswapfinance/sdk'
 import {
   BLOCKED_PRICE_IMPACT_NON_EXPERT,
   ALLOWED_PRICE_IMPACT_HIGH,

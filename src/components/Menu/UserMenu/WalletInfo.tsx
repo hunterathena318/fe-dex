@@ -1,4 +1,4 @@
-import { ETHER } from '@gemuni/sdk'
+import { ETHER } from '@techchainswapfinance/sdk'
 import { Box, Button, Flex, InjectedModalProps, LinkExternal, Message, Skeleton, Text } from '@pancakeswap/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { CHAIN_ID } from 'config/constants/chains'

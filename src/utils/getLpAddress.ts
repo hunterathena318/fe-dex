@@ -1,4 +1,4 @@
-import { Token, Pair, ChainId } from '@gemuni/sdk'
+import { Token, Pair, ChainId } from '@techchainswapfinance/sdk'
 import { isAddress } from 'utils'
 
 const getLpAddress = (token1: string | Token, token2: string | Token) => {

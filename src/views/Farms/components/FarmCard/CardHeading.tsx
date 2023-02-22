@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Tag, Flex, Heading, Skeleton } from '@pancakeswap/uikit'
-import { Token } from '@gemuni/sdk'
+import { Token } from '@techchainswapfinance/sdk'
 import { FarmAuctionTag, CoreTag } from 'components/Tags'
 import { TokenPairImage } from 'components/TokenImage'
 

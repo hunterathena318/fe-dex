@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, ETHER, Token, Trade, WETH } from '@gemuni/sdk'
+import { Currency, CurrencyAmount, ETHER, Token, Trade, WETH } from '@techchainswapfinance/sdk'
 import { ParsedUrlQuery } from 'querystring'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

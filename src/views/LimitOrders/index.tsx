@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { CurrencyAmount, Token, Trade } from '@gemuni/sdk'
+import { CurrencyAmount, Token, Trade } from '@techchainswapfinance/sdk'
 import { Button, Box, Flex, useModal, useMatchBreakpoints, BottomDrawer, Link, Text } from '@pancakeswap/uikit'
 
 import { useTranslation } from 'contexts/Localization'

@@ -12,7 +12,7 @@ import {
   WalletFilledIcon,
   Skeleton,
 } from '@pancakeswap/uikit'
-import { Price } from '@gemuni/sdk'
+import { Price } from '@techchainswapfinance/sdk'
 import { useTranslation } from 'contexts/Localization'
 import { multiplyPriceByAmount } from 'utils/prices'
 import styled from 'styled-components'

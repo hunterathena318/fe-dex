@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@gemuni/sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@techchainswapfinance/sdk'
 import { computeTradePriceBreakdown } from 'utils/prices'
 
 describe('prices', () => {

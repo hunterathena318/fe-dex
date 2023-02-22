@@ -1,7 +1,7 @@
 import JSBI from 'jsbi'
 import { useDispatch, useSelector } from 'react-redux'
 import { ParsedUrlQuery } from 'querystring'
-import { Currency, CurrencyAmount, TokenAmount, Trade, Token, Price, ETHER } from '@gemuni/sdk'
+import { Currency, CurrencyAmount, TokenAmount, Trade, Token, Price, ETHER } from '@techchainswapfinance/sdk'
 import { useState, useEffect, useCallback, useMemo } from 'react'
 import { useRouter } from 'next/router'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

@@ -1,4 +1,4 @@
-import { JSBI, Price, Token } from '@gemuni/sdk'
+import { JSBI, Price, Token } from '@techchainswapfinance/sdk'
 import getRatePercentageDifference from './getRatePercentageDifference'
 import { getRatePercentageMessage, PercentageDirection } from './getRatePercentageMessage'
 

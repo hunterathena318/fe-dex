@@ -1,4 +1,4 @@
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 import BigNumber from 'bignumber.js'
 import { getCakeVaultContract } from 'utils/contractHelpers'
 

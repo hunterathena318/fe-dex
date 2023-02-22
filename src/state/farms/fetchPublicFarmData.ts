@@ -2,7 +2,7 @@ import erc20 from 'config/abi/erc20.json'
 import chunk from 'lodash/chunk'
 import { getAddress, getMasterChefAddress } from 'utils/addressHelpers'
 import { multicallv2 } from 'utils/multicall'
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 import { SerializedFarm } from '../types'
 import { SerializedFarmConfig } from '../../config/constants/types'
 
@@ -51,7 +51,7 @@ export const fetchPublicFarmsData = async (farms: SerializedFarmConfig[], chainI
   const chunkSize = farmCalls.length / farms.length
   const farmMultiCallResult = await multicallv2(chainId, erc20, farmCalls)
   console.log({
-    farmMultiCallResult
+    farmMultiCallResult,
   })
   return chunk(farmMultiCallResult, chunkSize)
 }

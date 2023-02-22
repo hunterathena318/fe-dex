@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { TokenInfo } from '@uniswap/token-lists'
-import { Token } from '@gemuni/sdk'
+import { Token } from '@techchainswapfinance/sdk'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { isAddress } from '../../utils'
 

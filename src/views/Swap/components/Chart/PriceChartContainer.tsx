@@ -1,4 +1,4 @@
-import { Currency, WETH } from '@gemuni/sdk'
+import { Currency, WETH } from '@techchainswapfinance/sdk'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import useTheme from 'hooks/useTheme'
 import { useCallback, useState } from 'react'

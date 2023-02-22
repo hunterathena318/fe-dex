@@ -1,4 +1,4 @@
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 import { getInfoClientUrl, INFO_CLIENT } from 'config/constants/endpoints'
 import { GraphQLClient } from 'graphql-request'
 

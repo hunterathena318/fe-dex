@@ -1,4 +1,4 @@
-import { Percent } from '@gemuni/sdk'
+import { Percent } from '@techchainswapfinance/sdk'
 import { warningSeverity } from 'utils/prices'
 import { ONE_BIPS } from '../../../config/constants'
 import { ErrorText } from './styleds'

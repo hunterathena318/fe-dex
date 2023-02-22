@@ -1,4 +1,4 @@
-import { CurrencyAmount, Price } from '@gemuni/sdk'
+import { CurrencyAmount, Price } from '@techchainswapfinance/sdk'
 
 /**
  * Given certain amount if input and output tokens

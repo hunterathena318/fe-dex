@@ -1,4 +1,4 @@
-import { Token } from '@gemuni/sdk'
+import { Token } from '@techchainswapfinance/sdk'
 import { SerializedToken } from 'config/constants/types'
 import { parseUnits } from '@ethersproject/units'
 

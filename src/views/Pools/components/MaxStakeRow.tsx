@@ -5,7 +5,7 @@ import BigNumber from 'bignumber.js'
 import { useTranslation } from 'contexts/Localization'
 import Balance from 'components/Balance'
 import { getFullDisplayBalance } from 'utils/formatBalance'
-import { Token } from '@gemuni/sdk'
+import { Token } from '@techchainswapfinance/sdk'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 
 interface MaxStakeRowProps {

@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI, Token, Trade } from '@gemuni/sdk'
+import { CurrencyAmount, JSBI, Token, Trade } from '@techchainswapfinance/sdk'
 import {
   ArrowDownIcon,
   ArrowUpDownIcon,

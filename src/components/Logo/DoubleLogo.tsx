@@ -1,4 +1,4 @@
-import { Currency } from '@gemuni/sdk'
+import { Currency } from '@techchainswapfinance/sdk'
 import styled from 'styled-components'
 import CurrencyLogo from './CurrencyLogo'
 

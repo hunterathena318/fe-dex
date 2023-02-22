@@ -2,7 +2,7 @@ import { useEffect, useCallback, useState, useMemo, useRef, createContext } from
 import BigNumber from 'bignumber.js'
 import { useWeb3React } from '@web3-react/core'
 import { Image, Heading, RowType, Toggle, Text, Button, ArrowForwardIcon, Flex } from '@pancakeswap/uikit'
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import styled from 'styled-components'
 import FlexLayout from 'components/Layout/Flex'
@@ -131,9 +131,9 @@ const Farms: React.FC = ({ children }) => {
   const isActive = !isInactive && !isArchived
 
   usePollFarmsWithUserData(isArchived)
-  console.log("render")
+  console.log('render')
   console.log({
-    farmsLP
+    farmsLP,
   })
 
   // Users with no wallet connected should see 0 as Earned amount
@@ -298,7 +298,7 @@ const Farms: React.FC = ({ children }) => {
     }
 
     console.log({
-      row
+      row,
     })
 
     return row

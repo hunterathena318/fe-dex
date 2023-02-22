@@ -1,4 +1,4 @@
-import { Percent } from '@gemuni/sdk'
+import { Percent } from '@techchainswapfinance/sdk'
 import { TranslateFunction } from 'contexts/Localization/types'
 
 export enum PercentageDirection {

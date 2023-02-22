@@ -1,4 +1,4 @@
-import { Token } from '@gemuni/sdk'
+import { Token } from '@techchainswapfinance/sdk'
 import tokens from 'config/constants/tokens'
 
 const { bondly, safemoon, itam, ccar, bttold } = tokens

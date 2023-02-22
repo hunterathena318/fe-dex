@@ -1,7 +1,7 @@
 // Set of helper functions to facilitate wallet setup
 
 import { ExternalProvider } from '@ethersproject/providers'
-import { ChainId } from '@gemuni/sdk'
+import { ChainId } from '@techchainswapfinance/sdk'
 import { BASE_URL } from 'config'
 import { BLOCK_EXPLORER } from 'config/constants/chains'
 import { nodes } from './getRpcUrl'

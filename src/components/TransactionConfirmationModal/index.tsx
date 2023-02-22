@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { ChainId, Currency, Token } from '@gemuni/sdk'
+import { ChainId, Currency, Token } from '@techchainswapfinance/sdk'
 import styled from 'styled-components'
 import {
   Button,

@@ -52,7 +52,7 @@ import {
 
 // Imports below migrated from Exchange useContract.ts
 import { Contract } from '@ethersproject/contracts'
-import { ChainId, WETH } from '@gemuni/sdk'
+import { ChainId, WETH } from '@techchainswapfinance/sdk'
 import bep20Abi from 'config/abi/erc20.json'
 import { Address } from 'config/constants/types'
 import addresses from 'config/constants/contracts'

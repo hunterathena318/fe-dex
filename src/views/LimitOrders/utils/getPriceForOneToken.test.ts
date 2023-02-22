@@ -1,4 +1,4 @@
-import { JSBI, Token, TokenAmount } from '@gemuni/sdk'
+import { JSBI, Token, TokenAmount } from '@techchainswapfinance/sdk'
 import getPriceForOneToken from './getPriceForOneToken'
 
 const GENI = new Token(56, '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82', 18, 'GENI', 'Gemuni Exchange Token')

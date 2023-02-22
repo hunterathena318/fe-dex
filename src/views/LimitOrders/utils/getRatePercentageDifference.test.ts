@@ -1,4 +1,4 @@
-import { JSBI, Price, Token, Percent } from '@gemuni/sdk'
+import { JSBI, Price, Token, Percent } from '@techchainswapfinance/sdk'
 import getRatePercentageDifference from './getRatePercentageDifference'
 
 const GENI = new Token(56, '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82', 18, 'GENI', 'Gemuni Exchange Token')

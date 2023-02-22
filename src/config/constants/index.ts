@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@gemuni/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@techchainswapfinance/sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import { mainnetTokens, testnetTokens } from './tokens'
 

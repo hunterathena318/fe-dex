@@ -1,4 +1,4 @@
-import { ChainId, Pair, Token } from '@gemuni/sdk'
+import { ChainId, Pair, Token } from '@techchainswapfinance/sdk'
 import { differenceInDays } from 'date-fns'
 import flatMap from 'lodash/flatMap'
 import { useCallback, useMemo } from 'react'

@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@gemuni/sdk'
+import { Currency, ETHER, Token } from '@techchainswapfinance/sdk'
 import { BinanceIcon } from '@pancakeswap/uikit'
 import { CHAIN_ID } from 'config/constants/chains'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

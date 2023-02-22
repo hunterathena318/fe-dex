@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI } from '@gemuni/sdk'
+import { CurrencyAmount, JSBI } from '@techchainswapfinance/sdk'
 import { maxAmountSpend } from './maxAmountSpend'
 
 describe('maxAmountSpend', () => {

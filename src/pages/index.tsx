@@ -1,4 +1,4 @@
-import { FACTORY_ADDRESS_MAP } from '@gemuni/sdk'
+import { FACTORY_ADDRESS_MAP } from '@techchainswapfinance/sdk'
 import { getUnixTime, sub } from 'date-fns'
 import { gql } from 'graphql-request'
 import { GetStaticProps } from 'next'
