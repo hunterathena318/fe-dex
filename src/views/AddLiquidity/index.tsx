@@ -1,15 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { BigNumber } from '@ethersproject/bignumber'
 import { TransactionResponse } from '@ethersproject/providers'
-import {
-  Currency,
-  currencyEquals,
-  ETHER,
-  TokenAmount,
-  WETH,
-  ROUTER_ADDRESS_MAP,
-  ChainId,
-} from '@techchainswapfinance/sdk'
+import { Currency, currencyEquals, ETHER, TokenAmount, WETH, ROUTER_ADDRESS, ChainId } from '@techchainswapfinance/sdk'
 import { Button, Text, AddIcon, CardBody, Message, useModal } from '@pancakeswap/uikit'
 import { logError } from 'utils/sentry'
 import { useIsTransactionUnsupported } from 'hooks/Trades'
@@ -135,8 +127,8 @@ export default function AddLiquidity() {
   )
 
   // check whether the user has approved the router on the tokens
-  const [approvalA, approveACallback] = useApproveCallback(parsedAmounts[Field.CURRENCY_A], ROUTER_ADDRESS_MAP[chainId])
-  const [approvalB, approveBCallback] = useApproveCallback(parsedAmounts[Field.CURRENCY_B], ROUTER_ADDRESS_MAP[chainId])
+  const [approvalA, approveACallback] = useApproveCallback(parsedAmounts[Field.CURRENCY_A], ROUTER_ADDRESS[chainId])
+  const [approvalB, approveBCallback] = useApproveCallback(parsedAmounts[Field.CURRENCY_B], ROUTER_ADDRESS[chainId])
 
   const addTransaction = useTransactionAdder()
 

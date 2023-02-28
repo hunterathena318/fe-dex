@@ -64,10 +64,16 @@ export default function useCatchTxError(): CatchTxErrorReturn {
          * wait for useSWRMutation finished, so we could apply SWR in case manually trigger tx call
          */
         tx = await callTx()
+        console.log({
+          tx,
+        })
 
         toastSuccess(`${t('Transaction Submitted')}!`, <ToastDescriptionWithTx txHash={tx.hash} />)
 
         const receipt = await tx.wait()
+        console.log({
+          receipt,
+        })
 
         return receipt
       } catch (error: any) {

@@ -54,6 +54,9 @@ export const makeBusdPriceFromPidSelector = (pid: number) =>
 export const makeUserFarmFromPidSelector = (pid: number) =>
   createSelector([selectFarmByKey('pid', pid)], (farm) => {
     const { userData } = deserializeFarm(farm)
+    console.log({
+      userData,
+    })
     const { allowance, tokenBalance, stakedBalance, earnings } = userData
     return {
       allowance,
@@ -96,6 +99,7 @@ export const farmSelector = createSelector(
   (farms) => {
     const deserializedFarmsData = farms.data.map(deserializeFarm)
     const { loadArchivedFarmsData, userDataLoaded, poolLength } = farms
+    console.log({ deserializedFarmsData })
     return {
       loadArchivedFarmsData,
       userDataLoaded,

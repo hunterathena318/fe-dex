@@ -16,7 +16,7 @@ import {
   CurrencyAmount,
   Currency,
   ETHER,
-  ROUTER_ADDRESS_MAP,
+  ROUTER_ADDRESS,
   ChainId,
 } from '@techchainswapfinance/sdk'
 import { BLOCK_EXPLORER } from 'config/constants/chains'
@@ -103,7 +103,7 @@ export function getContract(address: string, ABI: any, library: Web3Provider, ac
 // account is optional
 export function getRouterContract(_: number, library: Web3Provider, account?: string) {
   return getContract(
-    ROUTER_ADDRESS_MAP[library.network?.chainId || 1],
+    ROUTER_ADDRESS[library.network?.chainId || 1],
     library.network?.chainId === ChainId.AVALANCHE ? IAvaxRouter02ABI : IPancakeRouter02ABI,
     library,
     account,

@@ -57,8 +57,16 @@ const DepositModal: React.FC<DepositModalProps> = ({
     return getFullDisplayBalance(max)
   }, [max])
 
+  console.log({
+    fullBalance,
+  })
+
   const lpTokensToStake = new BigNumber(val)
   const fullBalanceNumber = new BigNumber(fullBalance)
+
+  console.log({
+    fullBalanceNumber,
+  })
 
   const usdToStake = lpTokensToStake.times(lpPrice)
 
@@ -141,9 +149,9 @@ const DepositModal: React.FC<DepositModalProps> = ({
         </Button>
         <Button
           width="100%"
-          disabled={
-            pendingTx || !lpTokensToStake.isFinite() || lpTokensToStake.eq(0) || lpTokensToStake.gt(fullBalanceNumber)
-          }
+          // disabled={
+          //   pendingTx || !lpTokensToStake.isFinite() || lpTokensToStake.eq(0) || lpTokensToStake.gt(fullBalanceNumber)
+          // }
           onClick={async () => {
             setPendingTx(true)
             await onConfirm(val)

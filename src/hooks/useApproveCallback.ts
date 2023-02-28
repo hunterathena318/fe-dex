@@ -1,6 +1,6 @@
 import { MaxUint256 } from '@ethersproject/constants'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Trade, TokenAmount, CurrencyAmount, ETHER, ROUTER_ADDRESS_MAP } from '@techchainswapfinance/sdk'
+import { Trade, TokenAmount, CurrencyAmount, ETHER, ROUTER_ADDRESS } from '@techchainswapfinance/sdk'
 // import { CHAIN_ID } from 'config/constants/networks'
 import { useCallback, useMemo } from 'react'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
@@ -128,7 +128,7 @@ export function useApproveCallbackFromTrade(trade?: Trade, allowedSlippage = 0) 
     [trade, allowedSlippage],
   )
 
-  return useApproveCallback(amountToApprove, ROUTER_ADDRESS_MAP[chainId])
+  return useApproveCallback(amountToApprove, ROUTER_ADDRESS[chainId])
 }
 
 // Wraps useApproveCallback in the context of a Gelato Limir Orders

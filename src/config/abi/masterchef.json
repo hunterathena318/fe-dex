@@ -11,21 +11,9 @@
         "name": "_syrup",
         "type": "address"
       },
-      {
-        "internalType": "address",
-        "name": "_devaddr",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_cakePerBlock",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_startBlock",
-        "type": "uint256"
-      }
+      { "internalType": "address", "name": "_devaddr", "type": "address" },
+      { "internalType": "uint256", "name": "_cakePerBlock", "type": "uint256" },
+      { "internalType": "uint256", "name": "_startBlock", "type": "uint256" }
     ],
     "stateMutability": "nonpayable",
     "type": "constructor"
@@ -127,33 +115,19 @@
   {
     "inputs": [],
     "name": "BONUS_MULTIPLIER",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_allocPoint",
-        "type": "uint256"
-      },
+      { "internalType": "uint256", "name": "_allocPoint", "type": "uint256" },
       {
         "internalType": "contract IBEP20",
         "name": "_lpToken",
         "type": "address"
       },
-      {
-        "internalType": "bool",
-        "name": "_withUpdate",
-        "type": "bool"
-      }
+      { "internalType": "bool", "name": "_withUpdate", "type": "bool" }
     ],
     "name": "add",
     "outputs": [],
@@ -164,11 +138,7 @@
     "inputs": [],
     "name": "cake",
     "outputs": [
-      {
-        "internalType": "contract CakeToken",
-        "name": "",
-        "type": "address"
-      }
+      { "internalType": "contract CakeToken", "name": "", "type": "address" }
     ],
     "stateMutability": "view",
     "type": "function"
@@ -176,28 +146,14 @@
   {
     "inputs": [],
     "name": "cakePerBlock",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_pid",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_amount",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "_pid", "type": "uint256" },
+      { "internalType": "uint256", "name": "_amount", "type": "uint256" }
     ],
     "name": "deposit",
     "outputs": [],
@@ -206,11 +162,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "_devaddr",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "_devaddr", "type": "address" }
     ],
     "name": "dev",
     "outputs": [],
@@ -220,23 +172,13 @@
   {
     "inputs": [],
     "name": "devaddr",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
+    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_pid",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "_pid", "type": "uint256" }
     ],
     "name": "emergencyWithdraw",
     "outputs": [],
@@ -245,11 +187,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_amount",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "_amount", "type": "uint256" }
     ],
     "name": "enterStaking",
     "outputs": [],
@@ -258,35 +196,17 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_from",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_to",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "_from", "type": "uint256" },
+      { "internalType": "uint256", "name": "_to", "type": "uint256" }
     ],
     "name": "getMultiplier",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_amount",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "_amount", "type": "uint256" }
     ],
     "name": "leaveStaking",
     "outputs": [],
@@ -302,11 +222,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_pid",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "_pid", "type": "uint256" }
     ],
     "name": "migrate",
     "outputs": [],
@@ -329,48 +245,22 @@
   {
     "inputs": [],
     "name": "owner",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
+    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_pid",
-        "type": "uint256"
-      },
-      {
-        "internalType": "address",
-        "name": "_user",
-        "type": "address"
-      }
+      { "internalType": "uint256", "name": "_pid", "type": "uint256" },
+      { "internalType": "address", "name": "_user", "type": "address" }
     ],
     "name": "pendingCake",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "inputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "name": "poolInfo",
     "outputs": [
       {
@@ -378,11 +268,7 @@
         "name": "lpToken",
         "type": "address"
       },
-      {
-        "internalType": "uint256",
-        "name": "allocPoint",
-        "type": "uint256"
-      },
+      { "internalType": "uint256", "name": "allocPoint", "type": "uint256" },
       {
         "internalType": "uint256",
         "name": "lastRewardBlock",
@@ -400,13 +286,7 @@
   {
     "inputs": [],
     "name": "poolLength",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
@@ -419,21 +299,9 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_pid",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_allocPoint",
-        "type": "uint256"
-      },
-      {
-        "internalType": "bool",
-        "name": "_withUpdate",
-        "type": "bool"
-      }
+      { "internalType": "uint256", "name": "_pid", "type": "uint256" },
+      { "internalType": "uint256", "name": "_allocPoint", "type": "uint256" },
+      { "internalType": "bool", "name": "_withUpdate", "type": "bool" }
     ],
     "name": "set",
     "outputs": [],
@@ -456,13 +324,7 @@
   {
     "inputs": [],
     "name": "startBlock",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
@@ -470,11 +332,7 @@
     "inputs": [],
     "name": "syrup",
     "outputs": [
-      {
-        "internalType": "contract SyrupBar",
-        "name": "",
-        "type": "address"
-      }
+      { "internalType": "contract SyrupBar", "name": "", "type": "address" }
     ],
     "stateMutability": "view",
     "type": "function"
@@ -482,23 +340,13 @@
   {
     "inputs": [],
     "name": "totalAllocPoint",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "address",
-        "name": "newOwner",
-        "type": "address"
-      }
+      { "internalType": "address", "name": "newOwner", "type": "address" }
     ],
     "name": "transferOwnership",
     "outputs": [],
@@ -520,11 +368,7 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_pid",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "_pid", "type": "uint256" }
     ],
     "name": "updatePool",
     "outputs": [],
@@ -533,45 +377,21 @@
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      },
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
+      { "internalType": "uint256", "name": "", "type": "uint256" },
+      { "internalType": "address", "name": "", "type": "address" }
     ],
     "name": "userInfo",
     "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "amount",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "rewardDebt",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "amount", "type": "uint256" },
+      { "internalType": "uint256", "name": "rewardDebt", "type": "uint256" }
     ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_pid",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_amount",
-        "type": "uint256"
-      }
+      { "internalType": "uint256", "name": "_pid", "type": "uint256" },
+      { "internalType": "uint256", "name": "_amount", "type": "uint256" }
     ],
     "name": "withdraw",
     "outputs": [],

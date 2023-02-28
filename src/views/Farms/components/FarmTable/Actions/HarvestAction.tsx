@@ -59,7 +59,7 @@ const HarvestAction: React.FunctionComponent<HarvestActionProps> = ({ pid, userD
           )}
         </div>
         <Button
-          disabled={earnings.eq(0) || pendingTx || !userDataReady}
+          // disabled={earnings.eq(0) || pendingTx || !userDataReady}
           onClick={async () => {
             const receipt = await fetchWithCatchTxError(() => {
               return onReward()

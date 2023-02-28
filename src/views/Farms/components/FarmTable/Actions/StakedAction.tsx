@@ -60,7 +60,8 @@ const Staked: React.FunctionComponent<StackedActionProps> = ({
   const lpPrice = useLpTokenPrice(lpSymbol)
   const cakePrice = usePriceCakeBusd()
 
-  const isApproved = account && allowance && allowance.isGreaterThan(0)
+  // const isApproved = account && allowance && allowance.isGreaterThan(0)
+  const isApproved = true
 
   const lpAddress = getAddress(lpAddresses)
   const liquidityUrlPathParts = getLiquidityUrlPathParts({
@@ -118,6 +119,7 @@ const Staked: React.FunctionComponent<StackedActionProps> = ({
     <WithdrawModal max={stakedBalance} onConfirm={handleUnstake} tokenName={lpSymbol} />,
   )
   const lpContract = useERC20(lpAddress)
+  console.log({ lpAddress })
   const dispatch = useAppDispatch()
   const { onApprove } = useApproveFarm(lpContract)
 
@@ -145,6 +147,9 @@ const Staked: React.FunctionComponent<StackedActionProps> = ({
       </ActionContainer>
     )
   }
+  console.log({
+    isApproved,
+  })
 
   if (isApproved) {
     if (stakedBalance.gt(0)) {
@@ -209,20 +214,20 @@ const Staked: React.FunctionComponent<StackedActionProps> = ({
     )
   }
 
-  if (!userDataReady) {
-    return (
-      <ActionContainer>
-        <ActionTitles>
-          <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
-            {t('Start Farming')}
-          </Text>
-        </ActionTitles>
-        <ActionContent>
-          <Skeleton width={180} marginBottom={28} marginTop={14} />
-        </ActionContent>
-      </ActionContainer>
-    )
-  }
+  // if (!userDataReady) {
+  //   return (
+  //     <ActionContainer>
+  //       <ActionTitles>
+  //         <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
+  //           {t('Start Farming')}
+  //         </Text>
+  //       </ActionTitles>
+  //       <ActionContent>
+  //         <Skeleton width={180} marginBottom={28} marginTop={14} />
+  //       </ActionContent>
+  //     </ActionContainer>
+  //   )
+  // }
 
   return (
     <ActionContainer>
